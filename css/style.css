@@ -1,0 +1,130 @@
+.nav-item {
+    padding: 0 80;
+}
+
+.hero {
+    background-image: url(../images/bg/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heroContent {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTitle {
+    margin-bottom: 25px;
+    color: rgb(7, 87, 101);
+    font-size: 80px;
+}
+
+.heroTitle span{
+    font-weight: lighter;
+    color: white;
+}
+
+.adventure {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-right: 160px;
+    }
+    .navbar-brand {
+        width: 160px;
+    }
+    .nav-item {
+        padding-left: 0 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-item {
+        padding: 0 80px;
+    }
+}
+
+
+.cardIcon {
+    width: 86px;
+    margin-bottom: 60px;
+}
+
+.card-title {
+    color: #FFA300;
+    font-size: 32px;
+    margin-bottom: 112px;
+}
+
+h5 {
+    color: #9accd5;
+}
+
+
+.card-text {
+    font-size: 22px;
+}
+
+.card {
+    color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.card .btn{
+    margin-top: 60px;
+}
+.card1{
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 5px rgb(58, 109, 112),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    background-image: url(../images/bg/adventure-card1.png);
+}
+.card2{
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 5px rgb(58, 109, 112),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    background-image: url(../images/bg/adventure-card2.png);
+}
+.card3{
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 5px rgb(58, 109, 112),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    background-image: url(../images/bg/adventure-card3.png);
+}
+.adventure h4 {
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(138, 215, 222);
+        margin-bottom: 40px;
+}
+
+.adventure h2{
+    margin-bottom: 150px;
+}
+.btn-primary{
+    background-color:#FFA300 ;
+    border-color: #FFA300;
+}
+.btn-primary:hover{
+    background-color:#c9830a ;
+    border-color: #C9830A;
+}
+
+
+
+
+
