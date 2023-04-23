@@ -10,17 +10,17 @@
   </head>
   <body>
     
-    <div class="hero">
+    <section class="hero">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(7, 87, 101);">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="images/icons/Logo.png" alt="Mountain Background">
+                    <img src="images/icons/Logo.png" class="logo" alt="Mountain Background">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Travel</a>
                         </li>
@@ -28,7 +28,7 @@
                             <a class="nav-link" href="#">Destinations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Map</a>
+                            <a class="nav-link" href="#map">Map</a>
                          </li>
                     </ul>
                 </div>
@@ -39,56 +39,159 @@
                 <span>Travel</span>
                 California
             </h1>
-            <div class="chevronArrow" id="chevronArrow">
-                <div class="row">
-                    <div style="text-align: center;">
-                        <img src="./images/icons/hero-Chevron.png" alt="">
-                    <div>
-                <div>
-            <div>
-            <section class="adventure" id="adventure">
-                <h4 class="text-center">-EXPERIENCE-ADVENTURE-</h4>
+            <a href="#Travel">
+                <img src="./images/icons/hero-Chevron.png" alt="">
+            </a>
         <div>
-    </div>
-
-        <div class="container">
-            <div class="row">
+    </section>
+    <section class="container adventure" id="Travel">
+        <h1 class="sectionTitle">
+            <span class="subheading">Experience</span>
+            Adventure
+        </h1>
+        <div class="row">
             <div class="col-xl-4">
-                <div class="card card1">
-                    <div class="card-body">
-                        <img src="./images/icons/adventure-icon1.png" alt="" class="cardIcon">
-                        <h5 class="card-title">Book Your Flight</h5>
-                        <p class="card-text">
+                <div class="card bg-dark text-white">
+                    <img src="./images/bg/adventure-card1.png" class="card-img" alt="Card">
+                    <div class="card-img-overlay">
+                        <img src="./images/icons/adventure-icon1.png" class="cardIcon" alt="Card">
+                      <h5 class="card-title">Book Your Flight</h5>
+                      <p class="card-text">
                         Make a reservation with us, we make it easy to find affordable flights no problems!
-                        </p>
-                        <a href="#" class="btn btn-primary">Book Now</a>
+                      </p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
             </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="card card2">
-                    <div class="card-body">
-                        <img src="./images/icons/adventure-icon2.png" alt="" class="cardIcon">
-                        <h5 class="card-title">Book Your Flight</h5>
-                        <p class="card-text">
+            <div class="col-xl-4">
+                <div class="card bg-dark text-white">
+                    <img src="./images/bg/adventure-card2.png" class="card-img" alt="Card">
+                    <div class="card-img-overlay">
+                        <img src="./images/icons/adventure-icon2.png" class="cardIcon" alt="Card">
+                      <h5 class="card-title">Book Your Flight</h5>
+                      <p class="card-text">
                         Make a reservation with us, we make it easy to find affordable flights no problems!
-                        </p>
-                        <a href="#" class="btn btn-primary">Book Now</a>
+                      </p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="card card3">
-                    <div class="card-body">
-                        <img src="./images/icons/adventure-icon3.png" alt="" class="cardIcon">
-                        <h5 class="card-title">Book Your Flight</h5>
-                        <p class="card-text">
+            </div>
+            <div class="col-xl-4">
+                <div class="card bg-dark text-white">
+                    <img src="./images/bg/adventure-card3.png" class="card-img" alt="Card">
+                    <div class="card-img-overlay">
+                        <img src="./images/icons/adventure-icon3.png" class="cardIcon" alt="Card">
+                      <h5 class="card-title">Book Your Flight</h5>
+                      <p class="card-text">
                         Make a reservation with us, we make it easy to find affordable flights no problems!
-                        </p>
-                        <a href="#" class="btn btn-primary">Book Now</a>
-                    </div>
+                      </p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
+            </div>        
+        </div>
+    </section>
+    <section class="destinations" id="Destinations">
+        <div class="container">
+            <h1 class="sectionTitle">
+                <span class="subheading">Popular</span>
+                Destinations
+            </h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/bg/destinations-card1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="cardTitle">
+                                <h5 class="card-title">
+                                Yosemite National Park
+                                </h5>
+                                <div class="star">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Connecting with Nature
+                            </p>
+                            <a href="#" class="btn btn-link">Go Somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/bg/destinations-card2.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="cardTitle">
+                                <h5 class="card-title">
+                                Joshua Tree National Park
+                                </h5>
+                                <div class="star">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Connecting with Nature
+                            </p>
+                            <a href="#" class="btn btn-link ps-0">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./images/bg/destinations-card3.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="cardTitle">
+                                <h5 class="card-title">
+                                San Francisco
+                                </h5>
+                                <div class="star">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-orange.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                    <img src="./images/icons/adventure-star-gray.png" alt="">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Connecting with Nature
+                            </p>
+                            <a href="#" class="btn btn-link">Go Somewhere ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="emailList">
+        <h3>Join our mailing list</h3>
+        <p>Sign up to get the lastest in hot details and attractions</p>
+        <div class="container">
+            <form class="row justify-content-center">
+                <div class="col-5">
+                  <label for="email" class="visually-hidden">Enter a valid email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter a valid email">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="map" id="map">
+        <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1%20World%20Way,%20Los%20Angeles,%20CA%2090045&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </section>
+    <div class="fixed-bottom back-top">
+        <a href="#">
+            <img src="images/icons/back-top.png">
+        </a>
+      </div>
     
 </body>
 </html>
